@@ -68,7 +68,7 @@ namespace App9
 
             string op = tvWynik.Text.Substring(iOp, 1);
             double op1 = Convert.ToDouble(tvWynik.Text.Substring(0, iOp));
-            double op2 = Convert.ToDouble(tvWynik.Text.Substring(iOp + 1, tvWynik.Text.Length - 1));
+            double op2 = Convert.ToDouble(tvWynik.Text.Substring(iOp + 1, tvWynik.Text.Length - iOp - 1));
 
             if (op == "+")
             {
